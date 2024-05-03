@@ -213,3 +213,290 @@
 // and(false, false)
 
 // 23-misol
+// function tengMi(x, y) {
+//     if (x===y) {
+//         console.log(true);
+//     }
+//     else {
+//         console.log(false);
+//     }
+// }
+// tengMi(4, 8)
+// tengMi(2, 2)
+// tengMi(2, "2")
+
+// 24-misol
+// function futbolOchko(yutishlar, duranglar, maglubiyatlar) {
+//     console.log((yutishlar * 3) + (duranglar * 1) + (maglubiyatlar == 0));
+// }
+// futbolOchko(3, 4, 2)
+// futbolOchko(5, 0, 2)
+// futbolOchko(0, 0, 1)
+
+// 25-misol
+// function sekundlar(soat, minut) {
+//     console.log((soat * 3600) + (minut*60));
+// }
+// sekundlar(1, 3)
+// sekundlar(2, 0)
+// sekundlar(0, 0)
+
+// 26-misol
+// function fun(a) {
+//         if (! a % 2 == 0 || a % 3 == 0) {
+//             console.log(false);
+//         }
+//         else {
+//             console.log(true)
+//     }
+// }
+// fun(4)
+// fun(9)
+// fun(7)
+
+// 27-misol
+// function checkEquality(x, y) {
+//     if (x === y) {
+//         console.log(true);
+//     }
+//     else {
+//         console.log(false);
+//     }
+// }
+// checkEquality(1, true)
+// checkEquality(0, "0")
+// checkEquality(1, 1)
+
+// 28-misol
+// function booleanToString(bool) {
+//     return bool.toString();
+// }
+
+// console.log(booleanToString(true));
+// console.log(booleanToString(false));
+
+// 29-misol
+// let arrowFunc = (a) => {
+//     if (a===a) {
+//         console.log(a)
+//     }
+// };
+// arrowFunc(3)
+// arrowFunc("3")
+// arrowFunc(true)
+
+// 30-misol
+// function frameSoni(minut, frame) {
+//     console.log((minut*60)*frame)
+// }
+// frameSoni(1, 1)
+// frameSoni(10, 1)
+// frameSoni(10, 25)
+
+// 31-misol
+// function calc(str) {
+//     console.log(eval(str))
+// }
+// calc("23+4")
+// calc("45-15")
+// calc("13+2-5*2")
+// calc("49/7*2-3")
+
+// 32-misol
+// function teng10(a,b) {
+//     if (a == 10 || b == 10) {
+//         console.log(true)
+//     } else if (a + b == 10) {
+//         console.log(true)
+//     }
+//     else {
+//         console.log(false);
+//     }
+// }
+// teng10(9, 10)
+// teng10(9, 9)
+// teng10(1, 9)
+
+// 33-misol
+// function litrMasofa(km) {
+//     console.log(km*10)
+// }
+// litrMasofa(15)
+// litrMasofa(23.5)
+// litrMasofa(3)
+
+// 34-misol
+// function fun(a,b) {
+//     if (a >= b ) {
+//         console.log(a)
+//     }
+//     else {
+//         console.log(b);
+//     }
+// }
+// fun(3, 7)
+// fun(-1, 0)
+// fun(1000, 400)
+
+// 35-misol
+// let arr1 = []
+// function arr(x, y) {
+//     arr1.push(x, y)
+//     console.log(arr1)
+// }
+// arr(8, 10)
+
+// 36-misol
+// function tengStrings(str1, str2) {
+//     if (str1.length == str2.length) {
+//         console.log(true)
+//     } else {
+//         console.log(false);
+//     }
+// }
+// tengStrings("AB", "CD")
+// tengStrings("ABC", "DE")
+// tengStrings("hello", "edabit")
+
+// 37-misol
+// function boshStr(str) {
+//     if (str==="") {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
+// }
+// boshStr("")
+// boshStr(" ")
+// boshStr("a")
+
+// 38-misol
+// function bolinsin5(son) {
+//     if (son%5==0) {
+//         console.log(true);
+//     } else {
+//         console.log(false)
+//     }
+// }
+// bolinsin5(5)
+// bolinsin5(-55)
+// bolinsin5(37)
+
+// 39-misol
+// function bolinsin100(son) {
+//     if (son%100==0) {
+//         console.log(true);
+//     } else {
+//         console.log(false)
+//     }
+// }
+// bolinsin100(1)
+// bolinsin100(1000)
+// bolinsin100(100)
+
+// 40-misol
+// function uzunlik(str) {
+//     console.log(str.length);
+// }
+// uzunlik("apple")
+// uzunlik("make")
+// uzunlik("a")
+// uzunlik("")
+// uzunlik("  ")
+
+// 41-misol
+// function bolinsin(x, y) {
+//     if (x%y==0) {
+//         console.log(true);
+//     }
+//     else {
+//         console.log(false);
+//     }
+// }
+// bolinsin(98, 7)
+// bolinsin(85, 4)
+
+// 42-misol
+// function raqam(str) {
+//     console.log(Number(str))
+// }
+// raqam("6")
+// raqam("1000")
+// raqam("12")
+
+// 43-misol
+// function tortYuzi(a, b) {
+//     if (a <= 0 || b <= 0) {
+//         console.log(-1);
+//     } else {
+//         console.log(a*b)
+//     }
+// }
+// tortYuzi(3, 4)
+// tortYuzi(10, 11)
+// tortYuzi(-1, 5)
+// tortYuzi(0, 2)
+
+// 44-misol
+// function ismFam(ism, familiya) {
+//     console.log(`${ism} , ${ familiya}`)
+// }
+// ismFam("First", "Last")
+// ismFam("John", "Doe")
+// ismFam("Mary", "Jane")
+
+// 45-misol
+// function bug(a) {
+//     if (a==true) {
+//         console.log("sad days");
+//     }
+//     else {
+//         console.log("it's a good day");
+//     }
+// }
+// bug(true)
+// bug(false)
+
+// 46-misol
+// function tushirMassiv(arr, tushirishSoni) {
+//     return arr.slice(tushirishSoni);
+// }
+// console.log(tushirMassiv([1, 2, 3], 1));
+// console.log(tushirMassiv([1, 2, 3], 2));
+// console.log(tushirMassiv([1, 2, 3], 5));
+// console.log(tushirMassiv([1, 2, 3], 0));
+
+// 47-misol
+// function ovozlar(ovozObj) {
+//     console.log(ovozObj.upvotes - ovozObj.downvotes)
+// }
+// ovozlar({ upvotes: 13, downvotes: 0 })
+// ovozlar({ upvotes: 2, downvotes: 33 })
+// ovozlar({ upvotes: 132, downvotes: 132 })
+
+// 48-misol
+// function negativ(son) {
+//     console.log(0-son)
+// }
+// negativ(4)
+// negativ(15)
+// negativ(4)
+// negativ(0)
+
+// 49 - misol
+// let ret = []
+// function almash(input) {
+//     for (let i = input.length - 1; i >= 0; i--) {
+//         ret.push(input[i]);
+//     }
+//     console.log(ret)
+// }
+// almash([1, 2, 3, 4]);
+
+// 50-misol 
+// function kinogaKirish(yosh, otaOna) {
+//     return yosh >= 15 && otaOna;
+// }
+// console.log(kinogaKirish(15, true)); 
+// console.log(kinogaKirish(14, false)); 
+// console.log(kinogaKirish(16, false)); 
